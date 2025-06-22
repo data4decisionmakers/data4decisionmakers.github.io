@@ -3,6 +3,7 @@
 <!-- badges: start -->
 ![License for code](https://img.shields.io/badge/license_for_code-GPL3.0-blue)
 ![License for writing](https://img.shields.io/badge/license_for_writing-CC_BY_4.0-blue)
+[![Quarto Publish](https://github.com/data4decisionmakers/data4decisionmakers.github.io/actions/workflows/publish.yml/badge.svg)](https://github.com/data4decisionmakers/data4decisionmakers.github.io/actions/workflows/publish.yml)
 <!-- badges: end -->
 
 ## About this repository
