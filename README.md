@@ -1,4 +1,4 @@
-# Data for Decision Makers <img src="images/d4dm_neg.png" align="right" />
+# Data for Decision Makers <img src="images/d4dm_neg.png" width="200px" align="right" />
 
 <!-- badges: start -->
 ![License for code](https://img.shields.io/badge/license_for_code-GPL3.0-blue)
