@@ -6,11 +6,15 @@ on:
   workflow_dispatch:
 
 jobs:
-  test-book-render:
+  test-website-render:
     runs-on: ubuntu-latest
     container: rocker/tidyverse:4.5.0
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+    permissions:
+      contents: write
+      deployments: write
+      pull-requests: write
     steps:
       - uses: actions/checkout@v4
       
