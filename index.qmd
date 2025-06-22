@@ -1,0 +1,67 @@
+---
+title: ""
+page-layout: custom
+section-divs: false
+toc: false
+# listing:
+#   id: featured-packages
+#   contents:
+#     - packages/zscorer.qmd
+#     - packages/nipnTK.qmd
+#     - packages/mwana.qmd
+#   type: grid
+#   image-height: 400px
+#   image-placeholder: images/nutriverse.png
+#   grid-item-border: false
+#   max-items: 3
+---
+
+```{r}
+#| label: setup
+#| include: false
+
+library(quarto)
+```
+
+::: {.hero-banner}
+
+::: {.content-block}
+
+::: {.hero-text}
+
+# Building a community of practice on data and its use for transformative change
+
+### We are a community of practitioners from diverse sectors, engaging in data of different shapes and sizes with varying skills, capacities, and tools. We support each other through grounded and practical short courses, open and accessible technical guidance, and impactful peer-to-peer learning. 
+
+<!-- ::: {.hero-buttons}
+[Our packages](/packages/){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"} 
+[Our guides](/guides/){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"}
+:::  -->
+
+:::
+
+::: {.hero-image-right}
+
+<!-- ![](images/nutriverse.png){fig-align="right" height="400px"} -->
+![](images/d4dm_neg_square.png){fig-align="right" height="400px"}
+
+:::
+
+:::
+
+:::
+
+
+
+<!-- ::: {.theme-banner}
+
+::: {.info-block}
+
+# Featured packages
+
+::: {#featured-packages}
+:::
+
+:::
+
+::: -->
