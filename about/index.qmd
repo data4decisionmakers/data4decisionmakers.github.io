@@ -1,0 +1,144 @@
+---
+title: ""
+page-layout: custom
+toc: false
+form:
+  id: contact-form
+  submit: "Send"
+  action: "https://formspree.io/f/mjkraggq"
+  method: POST
+  fields:
+    - name: Name
+      type: text
+      id: name_id
+      label: "Your name"
+      required: true
+    - name: Email
+      type: email
+      id: email_id
+      label: "Your e-mail"
+      required: true
+    - text: ""
+    - name: Message
+      type: textarea
+      id: message_id
+      label: "Your message"
+      height: 200
+      required: true
+---
+
+
+::: {.about-banner}
+
+::: {.content-block}
+
+::: {.grid}
+
+::: {.g-col-3}
+
+# About Us
+
+:::
+
+::: {.g-col-9}
+### **Oxford iHealth** is an initiative within the [MSc in International Health and Tropical Medicine](https://www.tropicalmedicine.ox.ac.uk/study-with-us/msc-ihtm){target="_blank"}. 
+
+### We foster innovation, research, and education in the field of computational sciences for global health.
+
+:::
+
+:::
+
+:::
+
+:::
+
+
+
+::: {.approach-banner}
+
+::: {.content-block}
+
+::: {.grid}
+
+::: {.g-col-3}
+
+# Our Approach
+
+:::
+
+::: {.g-col-9}
+### Rooted science
+
+Our work is anchored on *empowering*, *enriching*, and *liberating* collaboration with our partners. We do not have a research agenda per se. Rather, our partners put forward their own learning needs, research priorities, and operational requirements in relation to global health challenges that they face. Together we identify existing skills and capacity, available material resources, and funds at hand upon which we jointly develop a capacity building, research implementation, and fundraising agenda that builds on existing strengths and addresses current limitations. It is, then, based on this common holistic agenda that we iterate and collaborate. This recognises what our partners often say ***"No science and research about us and for us without us"***.
+
+:::
+
+::: {.g-col-3}
+
+:::
+
+::: {.g-col-9}
+### Open and reproducible
+
+We believe that science and research is a community undertaking rather than an individual effort. Open and reproducible science and research practices are essential community building blocks. We achieve this through:
+
+* Creating **technical framework** for global health science and research through robust and performant R software developed by our team and our collaborators that lower the workload/threshold between data collection, processing, and data analysis towards insight and discovery.
+
+* Ensuring that relevant global health **data** are easily accessible, **tools** to work with such data are more available and usable, and **guidance** on best practices for using such tools are widely shared.
+
+* Building **capacity** of partners and collaborators in the usage of our tools and in the practice of open and reproducible science.
+
+:::
+
+::: {.g-col-3}
+
+:::
+
+::: {.g-col-9}
+### Action-oriented
+
+We work together with partners and collaborators to devise **strategies** and **solutions** to global health challenges they face. We collectively engage in research to understand the identified problem and to find ways to bring about **change**.
+
+:::
+
+:::
+
+:::
+
+:::
+
+
+
+::: {.contact-banner}
+
+::: {.content-block}
+
+# Contact Us
+
+::: {.grid}
+
+::: {.g-col-6}
+
+<br/>
+
+If you would like to contact us:
+
+* for any comments suggestions, or question; or,
+
+* for any ideas for collaboration 
+
+please send us a message through the form on the right.
+
+:::
+
+::: {.g-col-6}
+{{< form >}}
+
+:::
+
+:::
+
+:::
+
+:::
