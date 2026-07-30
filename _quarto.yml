@@ -18,18 +18,22 @@ website:
         aria-label: GitHub
         href: https://github.com/data4decisionmakers
     left:
-      - href: index.qmd
-        text: Home
-      # - text: Packages
-      #   href: packages/index.qmd
-      # - text: About
-      #   menu:
-      #     - href: about/team.qmd
-      #     - href: about/contact.qmd
+      - text: Home
+        href: index.qmd
+      - text: About
+        href: about/index.qmd
+      - text: Blog
+        href: blog.qmd
+      - text: Short Courses
+        href: courses/index.qmd
+      - text: Resources
+        href: resources/index.qmd
+      - text: Community
+        href: community/index.qmd
   open-graph:
     site-name: d4dm
   page-footer:
-    center: "Copyright 2025, D4DM"
+    center: "Copyright 2026, D4DM"
     background: light
     border: false
   reader-mode: true

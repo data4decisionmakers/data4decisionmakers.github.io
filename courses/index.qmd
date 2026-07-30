@@ -1,0 +1,22 @@
+---
+page-layout: full
+section-divs: false
+toc: false
+listing:
+  - id: featured-courses
+    contents:
+      - ../courses/+([[:digit:]]){\-}+([[:digit:]]){\-}+([[:digit:]])*{\.qmd}
+    type: grid
+    image-height: 200px
+    image-placeholder: ../images/d4dm.png
+    grid-item-border: false
+    max-items: 3
+---
+
+
+
+
+## Upcoming and recent courses
+
+::: {#featured-courses}
+:::

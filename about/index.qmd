@@ -23,7 +23,6 @@ form:
       type: textarea
       id: message_id
       label: "Your message"
-      height: 200
       required: true
 ---
 
@@ -41,9 +40,102 @@ form:
 :::
 
 ::: {.g-col-9}
-### **Oxford iHealth** is an initiative within the [MSc in International Health and Tropical Medicine](https://www.tropicalmedicine.ox.ac.uk/study-with-us/msc-ihtm){target="_blank"}. 
 
-### We foster innovation, research, and education in the field of computational sciences for global health.
+#### **Data for Decision Makers (D4DM)** is a data literacy initiative for a world where data is abundant but unevenly usable.
+
+#### Data has never been more available. Yet abundance is not access, and access is not use. The question is rarely whether the data exists — it is whether the people making decisions can find it, trust it, interrogate it, and act on it.
+
+:::
+
+:::
+
+:::
+
+:::
+
+
+
+::: {.approach-banner}
+
+::: {.content-block}
+
+::: {.grid}
+
+::: {.g-col-3}
+
+# The Gap
+
+:::
+
+::: {.g-col-9}
+
+### Data Availability Is No Longer the Primary Challenge
+
+Data is now generated as a routine by-product of everyday activities. Administrative and operational systems, remote sensing technologies, mobile networks, sensors, digital transactions, and survey programmes all contribute to an expanding data landscape, with many sources increasingly available through open access initiatives. Alongside traditional structured datasets, organisations now have access to diverse forms of information, including text, imagery, geospatial data, and high-frequency data streams.
+
+:::
+
+::: {.g-col-3}
+
+:::
+
+::: {.g-col-9}
+
+### Data Accessibility Remains the Critical Barrier
+
+While the volume and diversity of data continue to grow, the ability to access and effectively use that data remains a significant challenge. The gap between data existing and data being usable is where many organisations encounter the greatest barriers.
+
+**Permission and discoverability.** Many of the datasets most relevant to decision-making remain inaccessible, held within organisations under restrictive agreements, licensing arrangements, or internal processes. In many cases, valuable data cannot be used simply because potential users are unaware that it exists.
+
+**Format and usability.** Data that is technically available is not always suitable for analysis. Information published as scanned documents, static tables, or poorly maintained portal exports often requires substantial processing before it can support meaningful analysis. Availability does not necessarily equate to usability.
+
+**Skills and infrastructure.** Effective use of data depends on the capability to acquire, prepare, integrate, validate, and interpret information. These activities require both technical expertise and access to appropriate analytical tools and computing resources.
+
+**Trust and governance.** Responsible data use depends on clear governance, including appropriate consideration of privacy, consent, security, and data sovereignty. Uncertainty surrounding legal, ethical, or organisational requirements can limit the use of data as much as technical constraints.
+
+:::
+
+::: {.g-col-3}
+
+:::
+
+::: {.g-col-9}
+
+### The Value of Sound Judgement
+
+Advances in data science and artificial intelligence have significantly reduced the effort required to process, analyse, and transform data. At the same time, they have increased the importance of critical judgement. As analytical outputs become easier to generate, ensuring their quality, understanding their provenance, and interpreting them appropriately become increasingly important. The ability to assess the reliability, limitations, and suitability of data is now as essential as the technical skills used to analyse it.
+
+:::
+
+:::
+
+:::
+
+:::
+
+
+
+::: {.about-banner}
+
+::: {.content-block}
+
+::: {.grid}
+
+::: {.g-col-3}
+
+# Why It Matters
+
+:::
+
+::: {.g-col-9}
+
+### The potential for transformative change is real, but unevenly realised.
+
+The **private sector** has largely operationalised data. It is embedded in the core loop of pricing, targeting, forecasting, supply chains, and increasingly in the products themselves. The capability question there is largely settled; the open questions are governance and legitimacy.
+
+The **public and social sectors** carry the higher stakes and the lower realisation. The same data could reshape how resources are allocated, how early warning works, how services find the people who need them, and how institutions are held to account. But capacity constraints, procurement, misaligned incentives, and fragmented systems mean much of it is collected for reporting rather than used for deciding.
+
+That is where the return on building capability is largest. It is where we aim our work.
 
 :::
 
@@ -68,26 +160,10 @@ form:
 :::
 
 ::: {.g-col-9}
-### Rooted science
 
-Our work is anchored on *empowering*, *enriching*, and *liberating* collaboration with our partners. We do not have a research agenda per se. Rather, our partners put forward their own learning needs, research priorities, and operational requirements in relation to global health challenges that they face. Together we identify existing skills and capacity, available material resources, and funds at hand upon which we jointly develop a capacity building, research implementation, and fundraising agenda that builds on existing strengths and addresses current limitations. It is, then, based on this common holistic agenda that we iterate and collaborate. This recognises what our partners often say ***"No science and research about us and for us without us"***.
+### Building a community of practice on data and its use for transformative change
 
-:::
-
-::: {.g-col-3}
-
-:::
-
-::: {.g-col-9}
-### Open and reproducible
-
-We believe that science and research is a community undertaking rather than an individual effort. Open and reproducible science and research practices are essential community building blocks. We achieve this through:
-
-* Creating **technical framework** for global health science and research through robust and performant R software developed by our team and our collaborators that lower the workload/threshold between data collection, processing, and data analysis towards insight and discovery.
-
-* Ensuring that relevant global health **data** are easily accessible, **tools** to work with such data are more available and usable, and **guidance** on best practices for using such tools are widely shared.
-
-* Building **capacity** of partners and collaborators in the usage of our tools and in the practice of open and reproducible science.
+We are a community of practitioners from diverse sectors, engaging in data of different shapes and sizes with varying skills, capacities, and tools. We support each other through grounded and practical short courses, open and accessible technical guidance, and impactful peer-to-peer learning.
 
 :::
 
@@ -96,9 +172,34 @@ We believe that science and research is a community undertaking rather than an i
 :::
 
 ::: {.g-col-9}
-### Action-oriented
 
-We work together with partners and collaborators to devise **strategies** and **solutions** to global health challenges they face. We collectively engage in research to understand the identified problem and to find ways to bring about **change**.
+### Peer-to-peer
+
+We use a peer-to-peer learning approach to data that emphasizes collaborative knowledge sharing, where participants learn by working with and from one another rather than relying solely on formal instruction. Through discussion, shared problem-solving, and hands-on exploration of real datasets, we help learners develop technical skills alongside critical thinking, data literacy, and confidence in applying data to their own contexts. We value diverse perspectives and lived experience, recognizing that meaningful insights often emerge through collective inquiry and reflection.
+
+:::
+
+::: {.g-col-3}
+
+:::
+
+::: {.g-col-9}
+
+### Grounded
+
+We take a grounded approach to learning data by starting with real-world questions, lived experience, and practical challenges rather than abstract concepts or technical tools. We help learners build data skills by working with authentic datasets that are relevant to their own contexts, connecting analysis to meaningful decisions and actions. By grounding learning in practice, we make data more accessible, fostering confidence, critical thinking, and the ability to apply evidence in everyday work.
+
+:::
+
+::: {.g-col-3}
+
+:::
+
+::: {.g-col-9}
+
+### Open
+
+We take an open approach to learning data, grounded in accessibility, transparency, and shared knowledge, so that everyone has the opportunity to build data skills regardless of their background or experience. We use open resources, openly share our methods, and encourage collaborative learning, enabling people to explore, adapt, and build on each other’s work. In doing so, we foster a culture of curiosity and continuous improvement, empowering learners to engage confidently with data and contribute to a more informed, inclusive, and connected data community.
 
 :::
 
@@ -126,13 +227,14 @@ If you would like to contact us:
 
 * for any comments suggestions, or question; or,
 
-* for any ideas for collaboration 
+* for any ideas for collaboration
 
 please send us a message through the form on the right.
 
 :::
 
 ::: {.g-col-6}
+
 {{< form >}}
 
 :::

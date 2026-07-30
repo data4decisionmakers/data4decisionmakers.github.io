@@ -33,17 +33,15 @@ library(quarto)
 
 ### We are a community of practitioners from diverse sectors, engaging in data of different shapes and sizes with varying skills, capacities, and tools. We support each other through grounded and practical short courses, open and accessible technical guidance, and impactful peer-to-peer learning. 
 
-<!-- ::: {.hero-buttons}
-[Our packages](/packages/){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"} 
-[Our guides](/guides/){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"}
-:::  -->
+::: {.hero-buttons}
+[Our mission](/about/index.qmd){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"}
+::: 
 
 :::
 
 ::: {.hero-image-right}
 
-<!-- ![](images/nutriverse.png){fig-align="right" height="400px"} -->
-![](images/d4dm_neg_square.png){fig-align="right" height="400px"}
+![](images/d4dm_neg_square.png){fig-align="right" height="350px"}
 
 :::
 
@@ -53,15 +51,45 @@ library(quarto)
 
 
 
-<!-- ::: {.theme-banner}
+::: {.theme-banner}
 
 ::: {.info-block}
 
-# Featured packages
+# Our approach is
 
-::: {#featured-packages}
+::: {.grid}
+
+::: {.g-col-4}
+
+![](images/peer_512x512.png){fig-align="center"}
+
+#### Better data skills, built through collaboration.
+
+
+
+:::
+
+::: {.g-col-4}
+
+![](images/grounded_512x512.png){fig-align="center"}
+
+#### Making data meaningful by grounding learning in practice.
+
+:::
+
+::: {.g-col-4}
+
+![](images/open_512x512.png){fig-align="center"}
+
+#### Open by design. Stronger through shared learning.
+
+
 :::
 
 :::
 
-::: -->
+:::
+
+:::
+
+
