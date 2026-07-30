@@ -1,0 +1,13 @@
+[
+  {
+    "listing": "/blog.html",
+    "items": []
+  },
+  {
+    "listing": "/courses/index.html",
+    "items": [
+      "/courses/2025-05-26-data-concepts-applications.html",
+      "/courses/2026-07-13-data-concepts-applications.html"
+    ]
+  }
+]
