@@ -1,0 +1,17 @@
+---
+title: Blog
+subtitle: Stories, news, announcements, guides, and everything else
+page-layout: full
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  date-format: "DD MMMM YYYY"
+  image-placeholder: images/d4dm.png
+  feed: true
+title-block-banner: "#E4F0EF"
+title-block-banner-color: "#7F055F"
+search: false
+image: images/d4dm.png
+---

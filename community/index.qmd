@@ -1,0 +1,15 @@
+---
+page-layout: custom
+section-divs: false
+toc: false
+# listing:
+#   - id: featured-events
+#     contents:
+#       - ../events/+([[:digit:]]){\-}+([[:digit:]]){\-}+([[:digit:]])*{\.qmd}
+#     type: grid
+#     image-height: 150px
+#     image-placeholder: ../images/d4dm.png
+#     grid-item-border: false
+#     max-items: 3
+---
+

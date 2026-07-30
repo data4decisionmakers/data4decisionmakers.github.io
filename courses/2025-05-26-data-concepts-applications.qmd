@@ -1,0 +1,20 @@
+---
+title: Data Concepts and Applications
+subtitle: Data for Decision Makers Data Literacy Short Course Series
+image: ../images/d4dm.png
+---
+
+::: {.column-margin}
+**Date:** 26 May 2025 to 6 June 2025    
+**Time:** 09:00 - 16:30 Seychelles Time (SCT)    
+**Venue:** University of Seychelles Anse Royale Campus    
+:::
+
+In today’s data-driven world, the responsibility of public service demands more than experience and intuition; it requires evidence-based decision-making grounded in a deep understanding of data. For government officials, from local administrators to national policymakers, and non-governmental organisation staff, from field managers to headquarter officers, data is not just a tool but more so an indispensable asset in crafting policies that are effective, equitable, and accountable. For managers and leaders of industry and commercial companies, data is essential because it transforms intuition into informed decision-making. By analysing performance metrics, customer trends, and financial reports, leaders can identify opportunities, address inefficiencies, and allocate resources strategically. In a competitive environment, data-driven leadership not only reduces risk but also builds credibility and accountability across teams. The **Data for Decision Makers Data Literacy Short Course Series** is developed with this audience in mind: to support those entrusted with public leadership in leveraging data to serve communities more effectively.
+
+Across public sector domains such as public health, education, transportation, environmental policy, and private sector fields such as finance, retail, telecommunications, construction, real estate, and manufacturing, the availability of data has never been greater. But with this abundance comes complexity. Making sense of it - identifying relevant patterns, understanding root causes, evaluating outcomes, and anticipating future trends - requires more than access. It demands a strong foundation in the principles and practices of modern data use.
+
+The first short course in the series, **Data Concepts and Applications**, highlights how data literacy empowers government officials and private sector professionals to navigate uncertainty, combat misinformation, and design policies that truly respond to the needs of the public. From statistical reasoning and geographic information systems to predictive modelling and real-time dashboards, the tools of data are transforming governance. Understanding these tools is essential to strengthening transparency, accountability, and public trust.
+
+The **Data Concepts and Applications Short Course** bridges the gap between technical expertise and policy leadership. It offers clear, accessible explanations of core data concepts alongside practical examples from the public sector. Whether your role involves strategic planning, budget allocation, programme evaluation, market analysis, or legislative development, this course will help you make more informed, timely, and impactful decisions.
+
