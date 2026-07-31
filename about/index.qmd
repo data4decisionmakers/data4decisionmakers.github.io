@@ -41,9 +41,9 @@ form:
 
 ::: {.g-col-9}
 
-#### **Data for Decision Makers (D4DM)** is a data literacy initiative for a world where data is abundant but unevenly usable.
+### **Data for Decision Makers (D4DM)** is a data literacy initiative for a world where data is abundant but unevenly usable.
 
-#### Data has never been more available. Yet abundance is not access, and access is not use. The question is rarely whether the data exists — it is whether the people making decisions can find it, trust it, interrogate it, and act on it.
+### Data has never been more available. Yet abundance is not access, and access is not use. The question is rarely whether the data exists — it is whether the people making decisions can find it, trust it, interrogate it, and act on it.
 
 :::
 
