@@ -10,6 +10,9 @@ website:
     logo: images/d4dm.png
     logo-alt: d4dm
     tools:
+      - icon: linkedin
+        aria-label: LinkedIn
+        href: https://www.linkedin.com/company/d4dm
       - icon: mastodon
         aria-label: Mastodon
         href: https://mastodon.social/@d4dm
@@ -24,8 +27,13 @@ website:
         href: about/index.qmd
       - text: Blog
         href: blog.qmd
-      - text: Short Courses
-        href: courses/index.qmd
+      - text: Capacity Building
+        menu:
+          - href: capacity.qmd
+          - text: Data Literacy Series
+            href: courses/data-literacy-short-course.qmd
+          - text: Courses
+            href: courses/index.qmd
       - text: Resources
         href: resources/index.qmd
       - text: Community
