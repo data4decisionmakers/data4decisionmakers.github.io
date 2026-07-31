@@ -1,13 +1,15 @@
 [
   {
-    "listing": "/blog.html",
-    "items": []
-  },
-  {
     "listing": "/courses/index.html",
     "items": [
-      "/courses/2025-05-26-data-concepts-applications.html",
-      "/courses/2026-07-13-data-concepts-applications.html"
+      "/courses/upcoming/2026-07-31-programming-data.html",
+      "/courses/upcoming/2026-05-01-data-concepts-applications.html",
+      "/courses/recent/2026-07-13-data-concepts-applications.html",
+      "/courses/recent/2025-05-26-data-concepts-applications.html"
     ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": []
   }
 ]

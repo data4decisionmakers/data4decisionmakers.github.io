@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>index – Data for Decision Makers</title>
+<title>Courses – Data for Decision Makers</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -49,7 +49,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-398d7e6ff03e43a456c87a805041155d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-082b12756e0953f93cb4d769aeb12521.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -80,20 +80,48 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-featured-courses .list');
+    const listingTargetEl = window.document.querySelector('#listing-upcoming-courses .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-featured-courses'] = new List('listing-featured-courses', options);
+    window['quarto-listings']['listing-upcoming-courses'] = new List('listing-upcoming-courses', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-recent-courses .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-recent-courses'] = new List('listing-recent-courses', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -133,6 +161,23 @@ cookieconsent.run({
 });
 </script> 
   
+<style>
+
+      .quarto-title-block .quarto-title-banner h1,
+      .quarto-title-block .quarto-title-banner h2,
+      .quarto-title-block .quarto-title-banner h3,
+      .quarto-title-block .quarto-title-banner h4,
+      .quarto-title-block .quarto-title-banner h5,
+      .quarto-title-block .quarto-title-banner h6
+      {
+        color: #7F055F;
+      }
+
+      .quarto-title-block .quarto-title-banner {
+        color: #7F055F;
+background: #E4F0EF;
+      }
+</style>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
@@ -165,17 +210,18 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="../style.css">
-<meta property="og:title" content="Data for Decision Makers">
-<meta property="og:image" content="https://d4dm.org/images/d4dm.png">
+<meta property="og:title" content="Courses – Data for Decision Makers">
+<meta property="og:description" content="Our upcoming and recent short courses">
+<meta property="og:image" content="https://d4dm.org/images/course2_icon.png">
 <meta property="og:site_name" content="Data for Decision Makers">
-<meta property="og:image:height" content="992">
-<meta property="og:image:width" content="1403">
+<meta property="og:image:height" content="512">
+<meta property="og:image:width" content="512">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -202,10 +248,25 @@ window.Quarto = {
     <a class="nav-link" href="../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="../courses/index.html" aria-current="page"> 
-<span class="menu-text">Short Courses</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-capacity-building" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Capacity Building</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-capacity-building">    
+        <li>
+    <a class="dropdown-item" href="../capacity.html">
+ <span class="dropdown-text">Our approach</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../courses/data-literacy-short-course.html">
+ <span class="dropdown-text">Data Literacy Series</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../courses/index.html">
+ <span class="dropdown-text">Courses</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../resources/index.html"> 
 <span class="menu-text">Resources</span></a>
@@ -217,6 +278,7 @@ window.Quarto = {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools tools-wide">
+    <a href="https://www.linkedin.com/company/d4dm" title="" class="quarto-navigation-tool px-1" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
     <a href="https://mastodon.social/@d4dm" rel="me" title="" class="quarto-navigation-tool px-1" aria-label="Mastodon"><i class="bi bi-mastodon"></i></a>
     <a href="https://github.com/data4decisionmakers" title="" class="quarto-navigation-tool px-1" aria-label="GitHub"><i class="bi bi-github"></i></a>
   <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
@@ -229,64 +291,153 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Courses</h1>
+            <p class="subtitle lead">Our upcoming and recent short courses</p>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
-<h2 id="upcoming-and-recent-courses" class="anchored">Upcoming and recent courses</h2>
-<div id="listing-featured-courses" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1785471892026" data-listing-reading-time-sort="2" data-listing-word-count-sort="389">
-<a href="../courses/2025-05-26-data-concepts-applications.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img loading="lazy" src="../images/d4dm.png" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Data Concepts and Applications
-</h5>
-<div class="card-text listing-description delink">
-<strong>Date:</strong> 26 May 2025 to 6 June 2025<br>
+
+<section id="upcoming-courses" class="level2">
+<h2 class="anchored" data-anchor-id="upcoming-courses">Upcoming courses</h2>
+<div id="listing-upcoming-courses" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1785456000000" data-listing-file-modified-sort="1785509191819" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="30">
+<div class="thumbnail"><a href="../courses/upcoming/2026-07-31-programming-data.html" class="no-external">
+
+<img loading="lazy" src="../images/course2_icon.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../courses/upcoming/2026-07-31-programming-data.html" class="no-external">Programming Data</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../courses/upcoming/2026-07-31-programming-data.html" class="no-external">Data for Decision Makers Data Literacy Short Course Series</a>
+</div>
+<div class="delink listing-description"><a href="../courses/upcoming/2026-07-31-programming-data.html" class="no-external">
+<strong>Date:</strong> First Quarter of 2027<br>
 <strong>Time:</strong> 09:00 - 16:30 Seychelles Time (SCT)<br>
 <strong>Venue:</strong> University of Seychelles Anse Royale Campus
+</a></div>
 </div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
+<div class="metadata">
+<a href="../courses/upcoming/2026-07-31-programming-data.html" class="no-external">
+<div class="listing-date">
+31 July 2026
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1777593600000" data-listing-file-modified-sort="1785509191819" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="379">
+<div class="thumbnail"><a href="../courses/upcoming/2026-05-01-data-concepts-applications.html" class="no-external">
 
+<img loading="lazy" src="../images/course1_icon.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../courses/upcoming/2026-05-01-data-concepts-applications.html" class="no-external">Data Concepts and Applications</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../courses/upcoming/2026-05-01-data-concepts-applications.html" class="no-external">Data for Decision Makers Data Literacy Short Course Series</a>
+</div>
+<div class="delink listing-description"><a href="../courses/upcoming/2026-05-01-data-concepts-applications.html" class="no-external">
+<strong>Date:</strong> September 2026<br>
+<strong>Time:</strong> 09:00 - 16:30 GMT<br>
+<strong>Venue:</strong> University of Oxford
+</a></div>
+</div>
+<div class="metadata">
+<a href="../courses/upcoming/2026-05-01-data-concepts-applications.html" class="no-external">
+<div class="listing-date">
+01 May 2026
+</div>
+</a>
 </div>
 </div>
 </div>
-</div></a>
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1785471892027" data-listing-reading-time-sort="2" data-listing-word-count-sort="385">
-<a href="../courses/2026-07-13-data-concepts-applications.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img loading="lazy" src="../images/d4dm.png" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Data Concepts and Applications
-</h5>
-<div class="card-text listing-description delink">
+</section>
+<section id="recent-courses" class="level2">
+<h2 class="anchored" data-anchor-id="recent-courses">Recent courses</h2>
+<div id="listing-recent-courses" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1780272000000" data-listing-file-modified-sort="1785509191819" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="385">
+<div class="thumbnail"><a href="../courses/recent/2026-07-13-data-concepts-applications.html" class="no-external">
+
+<img loading="lazy" src="../images/course1_icon.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../courses/recent/2026-07-13-data-concepts-applications.html" class="no-external">Data Concepts and Applications</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../courses/recent/2026-07-13-data-concepts-applications.html" class="no-external">Data for Decision Makers Data Literacy Short Course Series</a>
+</div>
+<div class="delink listing-description"><a href="../courses/recent/2026-07-13-data-concepts-applications.html" class="no-external">
 <strong>Date:</strong> 13-14 July 2026<br>
 <strong>Time:</strong> 09:00 - 16:30 Seychelles Time (SCT)<br>
 <strong>Venue:</strong> University of Seychelles Mont Fleuri Campus
+</a></div>
 </div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
+<div class="metadata">
+<a href="../courses/recent/2026-07-13-data-concepts-applications.html" class="no-external">
+<div class="listing-date">
+01 June 2026
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1746057600000" data-listing-file-modified-sort="1785509191818" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="389">
+<div class="thumbnail"><a href="../courses/recent/2025-05-26-data-concepts-applications.html" class="no-external">
 
+<img loading="lazy" src="../images/course1_icon.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../courses/recent/2025-05-26-data-concepts-applications.html" class="no-external">Data Concepts and Applications</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../courses/recent/2025-05-26-data-concepts-applications.html" class="no-external">Data for Decision Makers Data Literacy Short Course Series</a>
 </div>
+<div class="delink listing-description"><a href="../courses/recent/2025-05-26-data-concepts-applications.html" class="no-external">
+<strong>Date:</strong> 26 May 2025 to 6 June 2025<br>
+<strong>Time:</strong> 09:00 - 16:30 Seychelles Time (SCT)<br>
+<strong>Venue:</strong> University of Seychelles Anse Royale Campus
+</a></div>
 </div>
+<div class="metadata">
+<a href="../courses/recent/2025-05-26-data-concepts-applications.html" class="no-external">
+<div class="listing-date">
+01 May 2025
 </div>
-</div></a>
+</a>
+</div>
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
@@ -294,6 +445,7 @@ Data Concepts and Applications
 
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

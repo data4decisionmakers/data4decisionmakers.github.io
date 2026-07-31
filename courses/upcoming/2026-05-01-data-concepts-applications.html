@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-05-01">
 
-<title>Blog – Data for Decision Makers</title>
+<title>Data Concepts and Applications – Data for Decision Makers</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -29,27 +30,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-398d7e6ff03e43a456c87a805041155d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-082b12756e0953f93cb4d769aeb12521.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -77,35 +76,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-N5RC41JEQ8"></script>
 
 <script type="text/plain" cookie-consent="tracking">
@@ -151,43 +121,14 @@ background: #E4F0EF;
       }
 </style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="style.css">
-<link rel="alternate" type="application/rss+xml" title="Data for Decision Makers" href="blog.xml" data-external="1"><meta property="og:title" content="Blog – Data for Decision Makers">
-<meta property="og:description" content="Stories, news, announcements, guides, and everything else">
-<meta property="og:image" content="https://d4dm.org/images/d4dm.png">
+<link rel="stylesheet" href="../../style.css">
+<meta property="og:title" content="Data Concepts and Applications – Data for Decision Makers">
+<meta property="og:description" content="Data for Decision Makers Data Literacy Short Course Series">
+<meta property="og:image" content="https://d4dm.org/images/course1_icon.png">
 <meta property="og:site_name" content="Data for Decision Makers">
-<meta property="og:image:height" content="992">
-<meta property="og:image:width" content="1403">
+<meta property="og:image:height" content="512">
+<meta property="og:image:width" content="512">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -197,9 +138,9 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/d4dm.png" alt="d4dm" class="navbar-logo light-content">
-    <img src="./images/d4dm.png" alt="d4dm" class="navbar-logo dark-content">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/d4dm.png" alt="d4dm" class="navbar-logo light-content">
+    <img src="../../images/d4dm.png" alt="d4dm" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -209,15 +150,15 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about/index.html"> 
+    <a class="nav-link" href="../../about/index.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+    <a class="nav-link" href="../../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -226,25 +167,25 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-capacity-building">    
         <li>
-    <a class="dropdown-item" href="./capacity.html">
+    <a class="dropdown-item" href="../../capacity.html">
  <span class="dropdown-text">Our approach</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./courses/data-literacy-short-course.html">
+    <a class="dropdown-item" href="../../courses/data-literacy-short-course.html">
  <span class="dropdown-text">Data Literacy Series</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./courses/index.html">
+    <a class="dropdown-item" href="../../courses/index.html">
  <span class="dropdown-text">Courses</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./resources/index.html"> 
+    <a class="nav-link" href="../../resources/index.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./community/index.html"> 
+    <a class="nav-link" href="../../community/index.html"> 
 <span class="menu-text">Community</span></a>
   </li>  
 </ul>
@@ -265,43 +206,52 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Blog</h1>
-            <p class="subtitle lead">Stories, news, announcements, guides, and everything else</p>
+    <div class="quarto-title column-body">
+      <h1 class="title">Data Concepts and Applications</h1>
+            <p class="subtitle lead">Data for Decision Makers Data Literacy Short Course Series</p>
                       </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">01 May 2026</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
 
 
 
 
 
 
+<div class="no-row-height column-margin column-container"><div class="">
+<p><strong>Date:</strong> September 2026<br>
+<strong>Time:</strong> 09:00 - 16:30 GMT<br>
+<strong>Venue:</strong> University of Oxford</p>
+</div></div><p>In today’s data-driven world, the responsibility of public service demands more than experience and intuition; it requires evidence-based decision-making grounded in a deep understanding of data. For government officials, from local administrators to national policymakers, and non-governmental organisation staff, from field managers to headquarter officers, data is not just a tool but more so an indispensable asset in crafting policies that are effective, equitable, and accountable. For managers and leaders of industry and commercial companies, data is essential because it transforms intuition into informed decision-making. By analysing performance metrics, customer trends, and financial reports, leaders can identify opportunities, address inefficiencies, and allocate resources strategically. In a competitive environment, data-driven leadership not only reduces risk but also builds credibility and accountability across teams. The <strong>Data for Decision Makers Data Literacy Short Course Series</strong> is developed with this audience in mind: to support those entrusted with public leadership in leveraging data to serve communities more effectively.</p>
+<p>Across public sector domains such as public health, education, transportation, environmental policy, and private sector fields such as finance, retail, telecommunications, construction, real estate, and manufacturing, the availability of data has never been greater. But with this abundance comes complexity. Making sense of it - identifying relevant patterns, understanding root causes, evaluating outcomes, and anticipating future trends - requires more than access. It demands a strong foundation in the principles and practices of modern data use.</p>
+<p>The first short course in the series, <strong>Data Concepts and Applications</strong>, highlights how data literacy empowers government officials and private sector professionals to navigate uncertainty, combat misinformation, and design policies that truly respond to the needs of the public. From statistical reasoning and geographic information systems to predictive modelling and real-time dashboards, the tools of data are transforming governance. Understanding these tools is essential to strengthening transparency, accountability, and public trust.</p>
+<p>The <strong>Data Concepts and Applications Short Course</strong> bridges the gap between technical expertise and policy leadership. It offers clear, accessible explanations of core data concepts alongside practical examples from the public sector. Whether your role involves strategic planning, budget allocation, programme evaluation, market analysis, or legislative development, this course will help you make more informed, timely, and impactful decisions.</p>
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -710,7 +660,7 @@ window.Quarto = {
     </div>   
     <div class="nav-footer-center">
 <p>Copyright 2026, D4DM</p>
-<div class="toc-actions"><ul><li><a href="https://github.com/data4decisionmakers/data4decisionmakers.github.io/edit/main/blog.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/data4decisionmakers/data4decisionmakers.github.io/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+<div class="toc-actions"><ul><li><a href="https://github.com/data4decisionmakers/data4decisionmakers.github.io/edit/main/courses/upcoming/2026-05-01-data-concepts-applications.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/data4decisionmakers/data4decisionmakers.github.io/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
