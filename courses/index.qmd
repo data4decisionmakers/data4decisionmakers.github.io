@@ -1,22 +1,30 @@
 ---
-page-layout: full
-section-divs: false
-toc: false
+title: Courses
+subtitle: Our upcoming and recent short courses
 listing:
-  - id: featured-courses
-    contents:
-      - ../courses/+([[:digit:]]){\-}+([[:digit:]]){\-}+([[:digit:]])*{\.qmd}
-    type: grid
-    image-height: 200px
+  - id: upcoming-courses
+    contents: upcoming
+    sort: "date desc"
+    type: default
+    categories: false
+    date-format: "DD MMMM YYYY"
     image-placeholder: ../images/d4dm.png
-    grid-item-border: false
-    max-items: 3
+  - id: recent-courses
+    contents: recent
+    sort: "date desc"
+    type: default
+    categories: false
+    date-format: "DD MMMM YYYY"
+    image-placeholder: ../images/d4dm.png
 ---
 
+## Upcoming courses
+
+:::{#upcoming-courses}
+:::
 
 
+## Recent courses
 
-## Upcoming and recent courses
-
-::: {#featured-courses}
+:::{#recent-courses}
 :::

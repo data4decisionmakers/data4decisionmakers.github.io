@@ -1,0 +1,15 @@
+---
+title: Programming Data
+subtitle: Data for Decision Makers Data Literacy Short Course Series
+image: ../../images/course2_icon.png
+date: 2026-07-31
+---
+
+::: {.column-margin}
+**Date:** First Quarter of 2027    
+**Time:** 09:00 - 16:30 Seychelles Time (SCT)    
+**Venue:** University of Seychelles Anse Royale Campus    
+:::
+
+
+

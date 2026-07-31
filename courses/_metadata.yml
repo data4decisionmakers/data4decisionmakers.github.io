@@ -1,21 +1,16 @@
 page-layout: article
 format:
   html:
-    toc: true
-    toc-location: left
+    # toc: true
+    # toc-location: left
     grid:
       sidebar-width: 250px
       body-width: 800px
       margin-width: 300px
       gutter-width: 1.5rem
     code-block-border-left: "#7F055F"
-    #code-line-numbers: true
 title-block-banner: "#E4F0EF"
 title-block-banner-color: "#7F055F"
 search: false
 date-format: "DD MMMM YYYY"
 image-placeholder: ../images/d4dm.png
-comments:
-  giscus: 
-    repo: data4decisionmakers/d4dm-discussion
-

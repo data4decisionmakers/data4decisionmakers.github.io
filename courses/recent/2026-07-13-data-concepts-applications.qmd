@@ -1,13 +1,14 @@
 ---
 title: Data Concepts and Applications
 subtitle: Data for Decision Makers Data Literacy Short Course Series
-image: ../images/d4dm.png
+image: ../../images/course1_icon.png
+date: 2026-06-01
 ---
 
 ::: {.column-margin}
-**Date:** 26 May 2025 to 6 June 2025    
+**Date:** 13-14 July 2026    
 **Time:** 09:00 - 16:30 Seychelles Time (SCT)    
-**Venue:** University of Seychelles Anse Royale Campus    
+**Venue:** University of Seychelles Mont Fleuri Campus    
 :::
 
 In today’s data-driven world, the responsibility of public service demands more than experience and intuition; it requires evidence-based decision-making grounded in a deep understanding of data. For government officials, from local administrators to national policymakers, and non-governmental organisation staff, from field managers to headquarter officers, data is not just a tool but more so an indispensable asset in crafting policies that are effective, equitable, and accountable. For managers and leaders of industry and commercial companies, data is essential because it transforms intuition into informed decision-making. By analysing performance metrics, customer trends, and financial reports, leaders can identify opportunities, address inefficiencies, and allocate resources strategically. In a competitive environment, data-driven leadership not only reduces risk but also builds credibility and accountability across teams. The **Data for Decision Makers Data Literacy Short Course Series** is developed with this audience in mind: to support those entrusted with public leadership in leveraging data to serve communities more effectively.
