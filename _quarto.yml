@@ -1,5 +1,9 @@
 project:
   type: website
+  render:
+    - "*.qmd"
+    - "!LICENSE.md"
+    - "!README.md"
 
 website:
   title: "Data for Decision Makers"
