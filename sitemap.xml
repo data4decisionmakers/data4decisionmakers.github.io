@@ -1,55 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://d4dm.org/courses/recent/2025-05-26-data-concepts-applications.html</loc>
-    <lastmod>2026-07-31T14:46:31.818Z</lastmod>
-  </url>
-  <url>
-    <loc>https://d4dm.org/courses/index.html</loc>
-    <lastmod>2026-07-31T14:46:31.818Z</lastmod>
-  </url>
-  <url>
-    <loc>https://d4dm.org/courses/upcoming/2026-05-01-data-concepts-applications.html</loc>
-    <lastmod>2026-07-31T14:46:31.819Z</lastmod>
-  </url>
-  <url>
-    <loc>https://d4dm.org/index.html</loc>
-    <lastmod>2026-07-31T14:46:31.822Z</lastmod>
-  </url>
-  <url>
     <loc>https://d4dm.org/resources/index.html</loc>
-    <lastmod>2026-07-31T14:46:31.824Z</lastmod>
-  </url>
-  <url>
-    <loc>https://d4dm.org/blog.html</loc>
-    <lastmod>2026-07-31T14:46:31.818Z</lastmod>
-  </url>
-  <url>
-    <loc>https://d4dm.org/capacity.html</loc>
-    <lastmod>2026-07-31T14:46:31.818Z</lastmod>
-  </url>
-  <url>
-    <loc>https://d4dm.org/LICENSE.html</loc>
-    <lastmod>2026-07-31T14:46:31.817Z</lastmod>
-  </url>
-  <url>
-    <loc>https://d4dm.org/about/index.html</loc>
-    <lastmod>2026-07-31T14:46:31.818Z</lastmod>
-  </url>
-  <url>
-    <loc>https://d4dm.org/community/index.html</loc>
-    <lastmod>2026-07-31T14:46:31.818Z</lastmod>
+    <lastmod>2026-08-01T05:36:02.333Z</lastmod>
   </url>
   <url>
     <loc>https://d4dm.org/courses/upcoming/2026-07-31-programming-data.html</loc>
-    <lastmod>2026-07-31T14:46:31.819Z</lastmod>
-  </url>
-  <url>
-    <loc>https://d4dm.org/courses/data-literacy-short-course.html</loc>
-    <lastmod>2026-07-31T14:46:31.818Z</lastmod>
+    <lastmod>2026-08-01T05:36:02.327Z</lastmod>
   </url>
   <url>
     <loc>https://d4dm.org/courses/recent/2026-07-13-data-concepts-applications.html</loc>
-    <lastmod>2026-07-31T14:46:31.819Z</lastmod>
+    <lastmod>2026-08-01T05:36:02.327Z</lastmod>
+  </url>
+  <url>
+    <loc>https://d4dm.org/courses/index.html</loc>
+    <lastmod>2026-08-01T05:36:02.327Z</lastmod>
+  </url>
+  <url>
+    <loc>https://d4dm.org/community/index.html</loc>
+    <lastmod>2026-08-01T05:36:02.327Z</lastmod>
+  </url>
+  <url>
+    <loc>https://d4dm.org/blog.html</loc>
+    <lastmod>2026-08-01T05:36:02.327Z</lastmod>
+  </url>
+  <url>
+    <loc>https://d4dm.org/about/index.html</loc>
+    <lastmod>2026-08-01T05:36:02.327Z</lastmod>
+  </url>
+  <url>
+    <loc>https://d4dm.org/capacity.html</loc>
+    <lastmod>2026-08-01T05:36:02.327Z</lastmod>
+  </url>
+  <url>
+    <loc>https://d4dm.org/courses/data-literacy-short-course.html</loc>
+    <lastmod>2026-08-01T05:36:02.327Z</lastmod>
+  </url>
+  <url>
+    <loc>https://d4dm.org/courses/recent/2025-05-26-data-concepts-applications.html</loc>
+    <lastmod>2026-08-01T05:36:02.327Z</lastmod>
+  </url>
+  <url>
+    <loc>https://d4dm.org/courses/upcoming/2026-05-01-data-concepts-applications.html</loc>
+    <lastmod>2026-08-01T05:36:02.327Z</lastmod>
+  </url>
+  <url>
+    <loc>https://d4dm.org/index.html</loc>
+    <lastmod>2026-08-01T05:36:02.332Z</lastmod>
   </url>
 </urlset>
