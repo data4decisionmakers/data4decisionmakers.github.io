@@ -1,4 +1,4 @@
-# Data for Decision Makers <img src="images/d4dm_neg.png" width="200px" align="right" />
+# Data for Decision Makers <img src="images/d4dm_neg_square.png" width="200px" align="right" />
 
 <!-- badges: start -->
 ![License for code](https://img.shields.io/badge/license_for_code-GPL3.0-blue)
@@ -12,7 +12,7 @@ This repository builds and serves the Data for Decisionmakers [website](https://
 
 ## Reproducibility
 
-This repository uses R version 4.5.0. R packages used in this repository are versioned using [`{renv}`](https://rstudio.github.io/renv/index.html). To reproduce the website's R package environment, please run:
+This repository uses R version 4.6.1. R packages used in this repository are versioned using [`{renv}`](https://rstudio.github.io/renv/index.html). To reproduce the website's R package environment, please run:
 
 ```R
 renv::restore()
