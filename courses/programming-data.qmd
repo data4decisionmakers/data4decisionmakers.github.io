@@ -1,0 +1,12 @@
+---
+title: Programming Data
+subtitle: ""
+description: |
+  The second course in the series, Programming Data, introduces participants to the concept of Data as Code: the practice of managing, transforming, analysing, and documenting data through transparent and reproducible computer programs. Rather than relying primarily on manual processes or isolated spreadsheet operations, participants learn how programming languages such as R can be used to create structured workflows that can be reviewed, repeated, adapted, and scaled. This approach helps organisations reduce errors, improve consistency, and preserve an auditable record of how data has been processed and how analytical results have been produced.
+---
+
+The Programming Data course provides a practical introduction to the use of code for working with data. Participants learn how to import, inspect, clean, organise, transform, summarise, visualise, and analyse data using clear and reusable scripts. The course also introduces essential practices such as documenting analytical decisions, organising projects, managing dependencies, using version control, and producing reproducible reports. These skills enable participants to move beyond one-off analyses towards reliable analytical processes that can be shared, reviewed, and maintained by teams.
+
+For government officials and non-governmental organisation staff, programming data can strengthen the preparation of administrative records, survey data, monitoring indicators, programme reports, and policy analyses. For professionals in industry and commerce, it can support the systematic analysis of operational performance, customer behaviour, financial results, production processes, and market trends. Whether participants are automating recurring reports, consolidating data from multiple sources, validating indicators, or developing analytical models, the course equips them with practical skills for carrying out data work more efficiently and transparently.
+
+The course does not assume that every decision-maker must become a specialist software developer. Instead, it develops the level of computational literacy required to understand how programmed analyses are constructed, assess the reliability of analytical workflows, communicate effectively with technical teams, and participate meaningfully in decisions about data systems. By treating code as part of the analytical record, organisations can improve reproducibility, institutional memory, collaboration, and accountability.
