@@ -1,0 +1,12 @@
+---
+title: Data in Production
+subtitle: ""
+description: |
+  The third course in the series, Data in Production, focuses on what happens after a data analysis, model, dashboard, or reporting workflow has been developed. Analytical solutions create sustained value only when they can operate reliably beyond an individual analyst’s computer or a temporary development environment. Moving data work into production therefore requires attention to deployment, automation, data quality, security, monitoring, documentation, maintenance, and organisational responsibility.
+---
+
+The Data in Production course provides practical knowledge and exercises on designing and operating dependable data workflows. Participants learn how data moves from source systems through ingestion, validation, transformation, storage, analysis, and reporting processes. The course examines how to schedule recurring tasks, manage configuration and access controls, detect failures, monitor data freshness, test outputs, document dependencies, and respond when source data or operational requirements change. It also introduces approaches for maintaining reproducible environments and ensuring that analytical products continue to function as intended over time.
+
+In public institutions and non-governmental organisations, production-ready data workflows can support routine disease surveillance, education monitoring, budget reporting, service-delivery dashboards, programme evaluation, and emergency-response systems. In the private sector, they can support financial reporting, customer analytics, inventory management, demand forecasting, risk monitoring, telecommunications operations, and manufacturing performance. In each context, reliable production systems help ensure that decision-makers receive accurate and timely information without depending on repeated manual intervention.
+
+The course also emphasises that data production is not solely a technical responsibility. Sustainable workflows require clear ownership, governance arrangements, service standards, documentation, quality controls, and procedures for managing change. Participants consider how analysts, managers, information technology teams, programme staff, and organisational leaders can work together to maintain trustworthy data products. By the end of the course, participants will be better equipped to evaluate whether a data workflow is ready for operational use, identify risks to its reliability, and support analytical systems that are maintainable, scalable, and aligned with organisational needs.

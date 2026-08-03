@@ -38,8 +38,8 @@ website:
             href: courses/data-literacy-short-course.qmd
           - text: Courses
             href: courses/index.qmd
-      - text: Resources
-        href: resources/index.qmd
+      # - text: Resources
+      #   href: resources/index.qmd
       - text: Community
         href: community/index.qmd
   open-graph:
