@@ -29,8 +29,8 @@ website:
         href: index.qmd
       - text: About
         href: about/index.qmd
-      - text: Blog
-        href: blog.qmd
+      # - text: Blog
+      #   href: blog.qmd
       - text: Capacity Building
         menu:
           - href: capacity.qmd
