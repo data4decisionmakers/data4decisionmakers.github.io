@@ -1,29 +1,6 @@
 ---
-title: ""
 page-layout: custom
 toc: false
-form:
-  id: contact-form
-  submit: "Send"
-  action: "https://formspree.io/f/mjkraggq"
-  method: POST
-  fields:
-    - name: Name
-      type: text
-      id: name_id
-      label: "Your name"
-      required: true
-    - name: Email
-      type: email
-      id: email_id
-      label: "Your e-mail"
-      required: true
-    - text: ""
-    - name: Message
-      type: textarea
-      id: message_id
-      label: "Your message"
-      required: true
 ---
 
 
@@ -35,7 +12,7 @@ form:
 
 ::: {.g-col-3}
 
-# About Us
+# Our mission
 
 :::
 
@@ -209,38 +186,3 @@ We take an open approach to learning data, grounded in accessibility, transparen
 
 :::
 
-
-
-::: {.contact-banner}
-
-::: {.content-block}
-
-# Contact Us
-
-::: {.grid}
-
-::: {.g-col-6}
-
-<br/>
-
-If you would like to contact us:
-
-* for any comments suggestions, or question; or,
-
-* for any ideas for collaboration
-
-please send us a message through the form on the right.
-
-:::
-
-::: {.g-col-6}
-
-{{< form >}}
-
-:::
-
-:::
-
-:::
-
-:::

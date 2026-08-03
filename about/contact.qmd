@@ -1,0 +1,33 @@
+---
+title: Contact Us
+description: |
+  If you would like to contact us for any ideas, comments, suggestions, or questions, please send us your thoughts through the following form.
+page-layout: article
+title-block-banner: "#E4F0EF"
+title-block-banner-color: "#7F055F"
+form:
+  id: contact-form
+  submit: "Send"
+  action: "https://formspree.io/f/mjkraggq"
+  method: POST
+  fields:
+    - name: Name
+      type: text
+      id: name_id
+      label: "Your name"
+      required: true
+    - name: Email
+      type: email
+      id: email_id
+      label: "Your e-mail"
+      required: true
+    - text: ""
+    - name: Message
+      type: textarea
+      id: message_id
+      label: "Your message"
+      required: true
+---
+
+
+{{< form >}}

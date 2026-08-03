@@ -28,7 +28,11 @@ website:
       - text: Home
         href: index.qmd
       - text: About
-        href: about/index.qmd
+        menu:
+          - text: Our mission
+            href: about/our-mission.qmd
+          - text: Contact
+            href: about/contact.qmd
       # - text: Blog
       #   href: blog.qmd
       - text: Capacity Building

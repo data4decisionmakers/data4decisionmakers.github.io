@@ -76,7 +76,7 @@ See a full listing and calendar of upcoming events [here](https://oxford-ihtm.io
 
 # Community chat and forum
 
-We offer our global alumni network a community forum for discussing, connecting, and collaborating. We are fortunate to have been gifted with sponsored hosting by [Zulip](https://zulip.com){.external target="_blank"}, an organised team chat app designed for efficient communication. Invitations to join the community chat group on Zulip are usually handed out during or after a community event. If you would like to join the Data for Decision Makers community chat group on Zulip but have not had the chance to be invited, please send us a message via our [about page](../about/index.qmd) requesting an invite.
+We offer our global alumni network a community forum for discussing, connecting, and collaborating. We are fortunate to have been gifted with sponsored hosting by [Zulip](https://zulip.com){.external target="_blank"}, an organised team chat app designed for efficient communication. Invitations to join the community chat group on Zulip are usually handed out during or after a community event. If you would like to join the Data for Decision Makers community chat group on Zulip but have not had the chance to be invited, please send us a message via our [about page](../about/contact.qmd) requesting an invite.
 
 :::
 
